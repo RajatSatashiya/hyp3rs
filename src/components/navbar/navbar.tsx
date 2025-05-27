@@ -7,7 +7,7 @@ function Navbar() {
       <div className="w-40">
         <img
           src="https://www.onlygfx.com/wp-content/uploads/2018/09/6-feather-drawing-2.png"
-          alt="Footprint logo"
+          alt="Hyp3rs logo"
         />
       </div>
       <ul className="flex gap-10">
