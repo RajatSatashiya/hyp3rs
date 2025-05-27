@@ -5,13 +5,6 @@
 import React from "react";
 import Head from "next/head";
 
-interface PrivacyPolicyPageProps {
-  appName?: string;
-  serviceProvider?: string;
-  providerEmail?: string;
-  lastEffectiveDate?: string;
-}
-
 const PrivacyPolicyPage = () => {
   const appName = "Hyp3rs";
   const serviceProvider = "Rajat Satashiya";
@@ -44,10 +37,10 @@ const PrivacyPolicyPage = () => {
             <p className="text-base leading-relaxed text-gray-600 mb-4">
               This privacy policy applies to the{" "}
               <span className="font-bold">{appName}</span> app (hereby referred
-              to as "Application") for mobile devices that was created by{" "}
-              <span className="font-bold">{serviceProvider}</span> (hereby
-              referred to as "Service Provider") as a Free service. This service
-              is intended for use "AS IS".
+              to as &quot;Application&quot;) for mobile devices that was created
+              by <span className="font-bold">{serviceProvider}</span> (hereby
+              referred to as &quot;Service Provider&quot;) as a Free service.
+              This service is intended for use &quot;AS IS&quot;.
             </p>
           </section>
 
